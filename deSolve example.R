@@ -16,4 +16,4 @@ times      <- seq(0, 100, by = 0.01)
 
 out <- ode(y = state, times = times, func = Lorenz, parms = parameters)
 
-plot(out)
+plot(out,col=2)
