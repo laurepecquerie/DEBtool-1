@@ -68,7 +68,6 @@ tXT(:,4) = 293;                               % K, temperature (does not need to
 %% get state at birth
 [var_b a_b M_E10 M_E20] = iso_21_b_var(tXT, par_iso_221);
 
-return
 %% run iso_221
 [var flux]  = iso_221_var(tXT, var_b, par_iso_221, n_O, n_M); % from birth to t = tXT(end,1)
 
