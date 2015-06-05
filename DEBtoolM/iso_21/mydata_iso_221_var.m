@@ -16,7 +16,7 @@ J_X1Am    = 2.0e-3; J_X2Am    = 1.0e-3;% mol/d.cm^2, {J_XiAm} max specific inges
 v         = 0.02;   kap       = 0.8;   % cm/d, energy conductance, 
                                        % -, allocation fraction to soma
 mu_E1     = 4e5;    mu_E2     = 6e5;   % J/mol, chemical potential of reserve i
-mu_V      = 5e5;    j_E1M     = 0.09;  % J/mol, chemical potenial of structure
+mu_V      = 5e5;    j_E1M     = 0.09;  % J/mol, chemical potenial of structure; j_E2M=j_E1M * mu_E1/ mu_E2
                                        % mol/d.mol, specific som maint costs
 J_E1T     = 0;      MV        = 4e-3;  % mol/d.cm^2, {J_E1T}, spec surface-area-linked som maint costs J_E1T/ J_E2T = j_E1M/ j_E2M
                                        % mol/cm^3, [M_V] density of structure
